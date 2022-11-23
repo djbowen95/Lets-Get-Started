@@ -15,6 +15,9 @@ const liveTime = setInterval(function() {
     } else if (currentHour >= 9 && currentHour <= 17) {
         console.log(currentHour);
         document.getElementById(`hour${currentHour}`).style.backgroundColor = "Green";
+        for (let i = 9; i > currentHour; i++) {
+            document.getElementById(`hour${i}`).style.backgroundColor = "Grey";
+        }
     } 
 }, 1000);
 

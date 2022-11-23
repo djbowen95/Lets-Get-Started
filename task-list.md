@@ -1,5 +1,8 @@
 # Calendar
 ## Refactor Project: Outline
+
+https://docs.google.com/presentation/d/1n0utgUBI9ueyvgkfHcE66L1e6sh45zfftJHFjRnXIm4/edit#slide=id.p    
+
 I am updating this application - which I built for my course - into something geniunely useful for me. I want to succinctly explain why I'd find a calendar application like this - no live updating, only tracking the day, useful.  
 
 I want a simple app: it just highlights the current day and the days you have plans - three colours (today - I have plans, today - I don't, future days with plans). 

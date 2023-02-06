@@ -1,25 +1,24 @@
-<h1 align="center"> 🏃 README Style Guide 📝</h1>
-<h2 align="center"> Subheading Here. <i> Version 1.0.0 </i> </h2>
+<h1 align="center">👨‍💻 Let's Get Started! 👩‍💻</h1>
+<h2 align="center"> Work Day Scheduler. <i> Working towards Version 1.0.0 </i> </h2>
 <div align="center">
 <img alt="GitHub issues" src="https://img.shields.io/github/issues/djbowen95/work-day-scheduler?style=flat-square">
 <img alt="License" src="https://img.shields.io/github/license/djbowen95/work-day-scheduler?style=flat-square">
 <a href="https://djbowen95.github.io/work-day-scheduler/" target="blank"><img alt="Deployed" src="https://img.shields.io/badge/live%20deployment-click%20here!-blue?style=flat-square&logo=github"></a>
 </div>
 
-I will update this header section with a description of the project shortly. This is an example of what it will look like:
-<p><strong>Quick and READ ME!</strong> is an easy-to-use, command-line interface that helps a user to quickly create a professional README markdown file. Created in <em>Node.js</em> with the <em>Inquirer npm package</em>, it can be run on a local machine from the command line. It will invite a user to answer a series of question prompts about their current project, and generate a simple README file based on their input. The user is then free to copy across to their own project's repository. </p>
+Simple work day scheduling application, that uses the Moment.js library to live track your day. Built in HTML and JavaScript, with Bootstrap styling and jQuery DOM Manipulation. This is a project that I built for the University of Birmingham and 2U/Trilogy Coding Bootcamp, which I am revisiting as it was one of the projects I feel is weaker/needs more work.
 
 ## Table of Contents
     
 * [Project History](#project-history)
-* [Using the Work Day Scheduler](#using-the-work-day-scheduler)
+* [How to Use](#how-to-use)
 * [Key Features](#key-features)
 * [Version History](#version-history)
 * [Contribution](#contribution)
 
 ## Project History
 This project was build for the University of Birmingham and 2U/Trilogy Web Development Coding Bootcamp. 
-## Using the Work Day Scheduler
+## How to Use
 I will make GIFs and/or a short video demonstrating the project in action once it is complete.
 
 ## Key Features

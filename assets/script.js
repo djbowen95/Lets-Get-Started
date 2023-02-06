@@ -13,16 +13,29 @@ const liveTime = setInterval(function() {
     momentTester.innerText = `${currentSecond}`;
 }, 1000);
 
-// Currently just making 3 o'clock green.
-// Should do this by applying a class. 
+// Should do this by applying a class.
+// Must be called last.
 function setCurrentHourBackground(hour) {
     document.getElementById(`tb-hour-${hour}`).style.backgroundColor = "Green";
+}
+
+function setPastHourBackground(hour) {
+    for (let i = 9; i <= hour; i++) {
+        document.getElementById(`tb-hour-${i}`).style.backgroundColor = "Red";
+    }
+}
+
+function setUpcomingHourBackground(hour) {
+    for (let i = 17; i >= hour; i--) {
+        document.getElementById(`tb-hour-${i}`).style.backgroundColor = "Orange";
+    }
 }
 
 // Updates the date on page refresh.
 currentDayDisplay.innerText = moment().format('dddd Do MMMM YYYY');
 
-setCurrentHourBackground(9);
-setCurrentHourBackground(11);
-setCurrentHourBackground(15);
+
+setUpcomingHourBackground(12);
+setPastHourBackground(12);
+setCurrentHourBackground(12);
 console.log(parseInt(moment().format('HH')) + 6)

@@ -11,6 +11,7 @@ const liveTime = setInterval(function () {
 
   // Updates every second with current time.
   momentTester.innerText = `${currentSecond}`;
+  setTimeblockBackgrounds(getHour());
 }, 1000);
 
 // Should do this by applying a class.

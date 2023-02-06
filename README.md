@@ -1,9 +1,9 @@
 <h1 align="center">👨‍💻 Let's Get Started! 👩‍💻</h1>
 <h2 align="center"> Work Day Scheduler. <i> Working towards Version 1.0.0 </i> </h2>
 <div align="center">
-<img alt="GitHub issues" src="https://img.shields.io/github/issues/djbowen95/work-day-scheduler?style=flat-square">
-<img alt="License" src="https://img.shields.io/github/license/djbowen95/work-day-scheduler?style=flat-square">
-<a href="https://djbowen95.github.io/work-day-scheduler/" target="blank"><img alt="Deployed" src="https://img.shields.io/badge/live%20deployment-click%20here!-blue?style=flat-square&logo=github"></a>
+<img alt="GitHub issues" src="https://img.shields.io/github/issues/djbowen95/;lets-get-started?style=flat-square">
+<img alt="License" src="https://img.shields.io/github/license/djbowen95/;lets-get-started?style=flat-square">
+<a href="https://djbowen95.github.io/;lets-get-started/" target="blank"><img alt="Deployed" src="https://img.shields.io/badge/live%20deployment-click%20here!-blue?style=flat-square&logo=github"></a>
 </div>
 
 Simple work day scheduling application, that uses the Moment.js library to live track your day. Built in HTML and JavaScript, with Bootstrap styling and jQuery DOM Manipulation. This is a project that I built for the University of Birmingham and 2U/Trilogy Coding Bootcamp, which I am revisiting as it was one of the projects I feel is weaker/needs more work.

@@ -1,43 +1,56 @@
-# Calendar
-## Refactor Project: Outline
+<h1 align="center"> 🏃 README Style Guide 📝</h1>
+<h2 align="center"> Subheading Here. <i> Version 1.0.0 </i> </h2>
+<div align="center">
+<img alt="GitHub issues" src="https://img.shields.io/github/issues/djbowen95/work-day-scheduler?style=flat-square">
+<img alt="License" src="https://img.shields.io/github/license/djbowen95/work-day-scheduler?style=flat-square">
+<a href="https://djbowen95.github.io/work-day-scheduler/" target="blank"><img alt="Deployed" src="https://img.shields.io/badge/live%20deployment-click%20here!-blue?style=flat-square&logo=github"></a>
+</div>
 
-https://docs.google.com/presentation/d/1n0utgUBI9ueyvgkfHcE66L1e6sh45zfftJHFjRnXIm4/edit#slide=id.p    
+I will update this header section with a description of the project shortly. This is an example of what it will look like:
+<p><strong>Quick and READ ME!</strong> is an easy-to-use, command-line interface that helps a user to quickly create a professional README markdown file. Created in <em>Node.js</em> with the <em>Inquirer npm package</em>, it can be run on a local machine from the command line. It will invite a user to answer a series of question prompts about their current project, and generate a simple README file based on their input. The user is then free to copy across to their own project's repository. </p>
 
-I am updating this application - which I built for my course - into something geniunely useful for me. I want to succinctly explain why I'd find a calendar application like this - no live updating, only tracking the day, useful.  
+## Table of Contents
+    
+* [Project History](#project-history)
+* [Using the Work Day Scheduler](#using-the-work-day-scheduler)
+* [Key Features](#key-features)
+* [Version History](#version-history)
+* [Contribution](#contribution)
 
-I want a simple app: it just highlights the current day and the days you have plans - three colours (today - I have plans, today - I don't, future days with plans). 
+## Project History
+This project was build for the University of Birmingham and 2U/Trilogy Web Development Coding Bootcamp. 
+## Using the Work Day Scheduler
+I will make GIFs and/or a short video demonstrating the project in action once it is complete.
 
-I need to be able to - view a day's plans - they appear in a list (mobile: separate page; desktop, right hand side - is this possible in handlebars?). Heading + note style. Possibly need to look at the note taker app for how to structure this.  
+## Key Features
+This is a work in progress, but it should demonstrate at least one example of the following:
+ - jQuery
+ - Click events
+ - Form handling
+ - DOM traversal
+ - Bootstrap
+ - Google fonts
+ - jQuery UI
+ - Moment.js
+## Version History
+### Working towards 1.0.0 BootCamp Project
+This project was something I built early into the course, and I ran out of time / wasn't happy with what I built. I am working this week (starting 06/02/2023) on completing the project so it fully functions and matches the Bootcamp brief. 
+## Contribution
+This is a small portfolio project and while I have a few more ideas for its development, I am not actively seeking collaborative contribution. I am always open to hearing ideas! If there's a feature you'd like to see, or you'd like to help build, I'd love to hear your idea. Please open an issue and outline it! I'll be sure to get back to you as soon as I can.
 
-Could build this in Handlebars with MongoDB (if they work together) rather than React. Its a very simple app so not sure React would really make a difference!  
-
-I can: add a plan/event (+ symbol, event title, note). 
-
-Finally: I think it would be really cute to have a selection of themes. Maybe just 5 or 6 options - two main colours w/ several gradients. TRY: designing in black and white - then move to grey.
-
-EXTRA: I would really like to use jQuery for this - just so I can say I've used it. jQuery UI possibly too - had a look at this and it did seem fun!
-
-## HANDLEBARS
-- I think this will work in Handlebars - I can essentially just have a 'flip' card when it is mobile that displays half the page or the other half. 
-
-# List of tasks.
-## Monday: 
-- Read through the moment.js documentation DONE
-- Implement day / timer retrieval DONE
-- Display day / time in the HTML DONE
-
-## Tuesday: 
-- Build table of elements DONE
-- Have elements change colour based on time of the day. DONE
-
-## Wednesday: 
-- Catch up on Bootstrap session 
-- Meet with online tutor
-
-## Thursday:
-- Learn mechanics for user input
-- Learn how to store user input to user storage
-
-
-## Friday: 
-- Submit work, improve CSS and HTML, debug.
+To take a look at my other projects, or reach out to me more generally, please email me at <strong>djbowen95@gmail.com</strong> or use one of the links below: 
+<div align="center">
+           <a href="mailto:djbowen95@gmail.com" target="blank">
+              <img src="https://img.shields.io/badge/email-e4572e?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgOTYgOTYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTkwIDEySDZhNS45OTcgNS45OTcgMCAwIDAtNiA2djYwYTUuOTk3IDUuOTk3IDAgMCAwIDYgNmg4NGE1Ljk5NyA1Ljk5NyAwIDAgMCA2LTZWMThhNS45OTcgNS45OTcgMCAwIDAtNi02Wm0tNiAxMnYyLjUxOUw0OCA0Ny4wOTIgMTIgMjYuNTE5VjI0Wk0xMiA3MlY0MC4zMzhMNDUuMDIzIDU5LjIxYTUuOTk2IDUuOTk2IDAgMCAwIDUuOTU0IDBMODQgNDAuMzM5VjcyWiIgZmlsbD0iI2ZmZmZmZiIgY2xhc3M9ImZpbGwtMDAwMDAwIj48L3BhdGg+PC9zdmc+"
+                   alt="Click to Email" height="30"/>
+            </a>
+            <a href="https://www.linkedin.com/in/daniel-bowen-6266ba191/" target="blank">
+              <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin"
+                   alt="LinkedIn Profile" height="30"/>
+            </a> 
+            <a href="https://github.com/djbowen95" target="blank">
+              <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"
+                   alt="LinkedIn Profile" height="30"/>
+            </a> 
+           
+</div>

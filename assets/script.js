@@ -16,12 +16,13 @@ const liveTime = setInterval(function() {
 // Currently just making 3 o'clock green.
 // Should do this by applying a class. 
 function setCurrentHourBackground(hour) {
-    let currentHour = 11;
-    document.getElementById(`tb-hour-${currentHour}`).style.backgroundColor = "Green";
+    document.getElementById(`tb-hour-${hour}`).style.backgroundColor = "Green";
 }
 
 // Updates the date on page refresh.
 currentDayDisplay.innerText = moment().format('dddd Do MMMM YYYY');
 
-setCurrentHourBackground();
+setCurrentHourBackground(9);
+setCurrentHourBackground(11);
+setCurrentHourBackground(15);
 console.log(parseInt(moment().format('HH')) + 6)

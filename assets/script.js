@@ -15,14 +15,13 @@ const liveTime = setInterval(function() {
 
 // Currently just making 3 o'clock green.
 // Should do this by applying a class. 
-function checkHour() {
-    if (moment().format('HH') >= 15) {
-        document.getElementById('hour14').style.backgroundColor = "Green";
-    }
+function setCurrentHourBackground(hour) {
+    let currentHour = 11;
+    document.getElementById(`tb-hour-${currentHour}`).style.backgroundColor = "Green";
 }
 
 // Updates the date on page refresh.
 currentDayDisplay.innerText = moment().format('dddd Do MMMM YYYY');
 
-checkHour();
+setCurrentHourBackground();
 console.log(parseInt(moment().format('HH')) + 6)
